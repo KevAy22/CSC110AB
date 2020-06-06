@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CSC110AB.iml" filepath="$PROJECT_DIR$/.idea/CSC110AB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Summer2020/Summer2020.iml" filepath="$PROJECT_DIR$/Summer2020/Summer2020.iml" />
+    </modules>
+  </component>
+</project>
