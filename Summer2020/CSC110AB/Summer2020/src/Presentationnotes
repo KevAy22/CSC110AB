@@ -1,0 +1,60 @@
+Lecture 2
+- System.out.println() the stuff in the () can be anythign from strings
+to characters, to numbers, to expressions to variables, to a mixture of "Stuff"
+- '+' is for concatenation 
+- string concatenation vs additon 
+- If I dont want a line break use the print() method
+- An empty println() simply prints a line break
+- Escape sequences are formatting commands into a string 
+- '\' followed by a specific character, this only works within strings and there cannot 
+be any spaces in-between
+- \n is a newline \t is a tab \\ is a backslash \' is a single quote \" us a double quote
+
+Lecture 3
+- Keyword is a word with a special meaning 
+- Variables are a storage location in memory with a name and value 
+- An '=' operation saves a value into the variable left of it
+- an identifier is a name 
+- Golden Rule for an identifier can not start with a number, must be a single word,
+'#' is not an acceptable letter, using legal alphanumeric character
+- identifiers are case sensitive
+- each identifier must have a unique name
+- Cannot use any keyword as a direct identifier name
+- Capitalize the first letter of every "word in the name exept the first
+- Data type is the classification that determines the meaning ofyour data 
+- Primitive Data Types are fundamental, basic data type that is built into the programming lang (i.e int, double)
+- Abstract Data Type are man made data types 
+- Variables, upon creation, must be set with a data type, once chose it never changes
+- short, int, float, double, boolean (t/f) character
+- Integers are whole numers only, no decimals allowed
+- Shorts, int but with smaller range
+- Double/ Float support integer and decimal values, if precision is vital use double over float
+- Boolean is either true or false but never both 
+- char data type is created with a pair of single quotes and is a single character 
+- Characters and strings are not the same thing
+- String is not a primitive data type 
+- Declaration is a statement that creates something 
+- Assignment is a statement that assigns a value to something
+- Initialization is a statement that both creates and assigns a value to something
+- Variable can only be declared once 
+- Once declared, variables will continue to exist until the end of a code block
+- Multiple declarations is possible 
+- Scope is the programs' visibility range of "things"
+- Define variables at beginning of code block to avoid any potential scoping issues
+- +, -, *, / are operators
+- Use parentheses to group terms, this can affect the order of operations 
+- Associative and Communtative properties still apply
+- minus signs can negate a value 
+- Math expressions do not automatically reassign themselves back into variables, use an assignment operator accordingly 
+- Modulus (%) operator calculates the remainder from an integer division 
+- When using '/' be aware of what data type(s) your operands are
+- ++ is the increment operator that increases value of a variable by one and Decrement -- decreases by one 
+- Special assignment operators, a variation of '=' (i.e +=, *=) but be sure that the variable has a value beforehand 
+- ? Overflow is when a variable is assigned a value that is too large for it to handle 
+- ? Underflow is the same as overflow except its too small 
+- All primitive data types have ranks predetermined by programing language 
+- Double > float > int > short > char > boolean 
+- Type conversion that occurs naturally is type coercion 
+- Type conversion that occurs forcefully is called type casting 
+- You cannot assign value to a variable of lower rank unless you type cast 
+- ?Casting 
