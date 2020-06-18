@@ -58,3 +58,59 @@ Lecture 3
 - Type conversion that occurs forcefully is called type casting 
 - You cannot assign value to a variable of lower rank unless you type cast 
 - ?Casting 
+
+Lecture 4
+- false is 0
+- true is 1
+- boolean can only support one of these two value, either true or false
+- < is less than
+- > is greater than
+- <= is less than or equal to
+- >= is greater than or equal to 
+- == is equals and returns true if both values are exactly the same
+- != is not equals, opposite of equals operator
+- Operator Precedence is parentheses, unary, multiplicatie, additive,relational,equality,logical AND, logical OR,and assignment
+- if (<expression>)
+        statement;
+- If the expression evaluates to true the nthe statementis executed 
+- First line of an if statement does not have a semicolon, it is an entire statement
+- In order to affect multiple statements use code block
+    if(<Expression>)
+    {
+        //Insert code here
+    }
+- use "else" clause to execute another set of code, if expression evaluated to be false instead
+    if(<expression>)//one "if" statement
+        statement;//two clasues
+    else 
+        statement;
+- ?defining odd/even numbers in if expression
+- else clauses should use a code block too
+- only one else clause per "if" statement 
+- You can code "if" statement(s) within "if" statement(s) they are called nested "if" statements 
+- In between "if" & "else" clauses, you can have as many "else if" caluses as you want
+- "else if " caluse template
+    if (<expression_1>){
+        //if <expression_1> is true, then this code block executes 
+        //and all other clauses are skipped
+    }
+    else if(<expression_2>){
+        //if <expression_1> was false and <expression_2> is true, 
+        //then this code block executes and all other clauses are skipped
+    }
+    else{
+        //if ALL prior expressions were false, then 
+        //only this code block will execute
+    }
+- "else-if" statements over nested "if" statements  
+- Logical operators && [AND], || [OR], ![NOT]
+- && operator returns true if both operands are true
+- || operator returns true if either operand is true 
+- ! operator returns opposite Boolean value 
+- when using relational operators on 'chars', they are intertpreted as "integers"
+- only == and != operators can work with 'String' operands 
+- Everything within a code block cannot be seen by anything outside of the said code block
+
+Lecture 5
+- 
+
